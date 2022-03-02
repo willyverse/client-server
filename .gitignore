@@ -1,0 +1,49 @@
+server/HELP.md
+server/**/*.gradle
+server/build/
+!server/gradle/wrapper/gradle-wrapper.jar
+client/HELP.md
+client/**/*.gradle
+client/build/
+!client/gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+/**/*.apt_generated
+/**/*.classpath
+/**/*.factorypath
+/**/*.project
+/**/*.settings
+/**/*.springBeans
+/**/*.sts4-cache
+server/bin/
+!server/**/src/main/**/bin/
+!server/**/src/test/**/bin/
+client/bin/
+!client/**/src/main/**/bin/
+!client/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+*.idea
+*.iws
+*.iml
+*.ipr
+out/
+!server/**/src/main/**/out/
+!server/**/src/test/**/out/
+!client/**/src/main/**/out/
+!client/**/src/test/**/out/
+
+### NetBeans ###
+server/nbproject/private/
+server/nbbuild/
+server/dist/
+server/nbdist/
+server/**/*.nb-gradle/
+client/nbproject/private/
+client/nbbuild/
+client/dist/
+client/nbdist/
+client/**/*.nb-gradle/
+
+### VS Code ###
+.vscode/
